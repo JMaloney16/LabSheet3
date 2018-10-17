@@ -27,6 +27,7 @@ public class Stage4 {
             double carTwoTotalCost = (secondCarCost + distanceDriven*((secondServiceCost/secondServiceInterval) + (secondFuelCostPerLitre/secondKmPerLitre)));
             System.out.printf("Car one total cost at %d km: %f%n", distanceDriven, carOneTotalCost);
             System.out.printf("Car two total cost at %d km: %f%n", distanceDriven, carTwoTotalCost);
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
             if (carOneTotalCost > carTwoTotalCost){
                 System.out.printf("Car two becomes cheaper at %d kilometres.", distanceDriven);
                 break;
